@@ -37,6 +37,7 @@ import java.util.List;
 
 /**
  * Created by connxun-16 on 2018/1/19.
+ * https://github.com/Faceunity/FULiveDemoDroid
  */
 
 public class TestActivity extends UI implements MediaCaptureController.MediaCaptureControllerCallback,
