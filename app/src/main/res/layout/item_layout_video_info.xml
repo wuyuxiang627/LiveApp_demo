@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="20dp"
+    >
+
+    <TextView
+        android:id="@+id/tv_format"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:textSize="17sp"
+        android:textColor="#333333"
+        android:text="MP4"
+        />
+
+    <TextView
+        android:id="@+id/tv_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tv_format"
+        android:layout_marginTop="18dp"
+        android:textSize="14sp"
+        android:textColor="#999999"
+        android:text="17.43MB"
+        />
+
+    <TextView
+        android:id="@+id/tv_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textSize="14sp"
+        android:text="转码中."
+        android:textColor="@color/black"
+        android:layout_below="@+id/tv_format"
+        android:layout_alignParentStart="true" />
+
+    <LinearLayout
+        android:id="@+id/ll_btns"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_info"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        >
+
+        <TextView
+            android:id="@+id/tv_play"
+            style="@style/video_info_button"
+            android:text="播放"
+            />
+
+        <TextView
+            android:id="@+id/tv_share"
+            style="@style/video_info_button"
+            android:layout_marginLeft="10dp"
+            android:text="分享"
+            />
+        <TextView
+            android:id="@+id/tv_delete"
+            style="@style/video_delete_button"
+            android:layout_marginLeft="10dp"
+            android:text="删除"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

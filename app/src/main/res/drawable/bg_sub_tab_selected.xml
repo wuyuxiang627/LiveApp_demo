@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape>
+            <solid android:color="@color/color_btn_main" />
+        </shape>
+    </item>
+
+    <item android:bottom="2dp">
+        <shape>
+            <solid android:color="@color/bg_color_main_top_tab" />
+        </shape>
+    </item>
+
+
+</layer-list>

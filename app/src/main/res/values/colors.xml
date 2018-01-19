@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">@color/black</color>
+    <color name="colorAccent">#346fc3</color>
+    <color name="textColorPrimary">@color/black</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="color_black_333333_90_transparent">#e5333333</color>
+    <color name="color_yellow_c5a962">#c5a962</color>
+    <color name="color_black_20">#33FFFFFF</color>
+    <color name="color_black_30">#4CFFFFFF</color>
+    <color name="color_black_2e2625">#2e2625</color>
+    <color name="color_black_CCffffff">#CCffffff</color>
+    <color name="color_black_cc000000">#cc000000</color>
+    <color name="color_black_10_fffff">#19ffffff</color>
+
+    <color name="color_btn_main">#ff238efa</color>
+    <color name="color_btn_main_unable">#80238efa</color>
+
+    <color name="color_btn_delete">#fff05b60</color>
+    <color name="color_btn_delete_unable">#80f05b60</color>
+
+    <color name="text_color_content">#aaaaaa</color>
+
+    <color name="text_color_333333">#ff333333</color>
+    <color name="text_hint_color_999999">#ff999999</color>
+
+
+    <color name="title_grey">#CED9E7</color>
+
+
+    <color name="actionbar_sel_color">#1c1c1c</color>
+
+    <color name="menu_item_click_color">#346fc3</color>
+    <color name="light_blue">#8CA4FF</color>˙
+    <color name="text_color_count">#F6BB42</color>
+    <color name="text_label_color">#595976</color>
+    <color name="text_context_color">#4D4D4D</color>
+    <color name="text_time_color">#9393AA</color>
+    <color name="text_yellow_color">#FFC024</color>
+    <color name="devide_line_color">#CCCCCC</color>
+    <color name="dada_background_color">#363546</color>
+    <color name="group_small_text_color">#ABAABF</color>
+    <color name="devider_view_color">#EDEDF3</color>
+    <color name="gonglue_detail_color">#FFCE54</color>
+
+    <color name="equipment_text_color">#5D9CEC</color>
+    <color name="diet_text_color">#F6BB42</color>
+    <color name="skill_text_color">#AC92EC</color>
+    <color name="nickname_color">#FDBF2E</color>
+    <color name="live_text_color">#FFFFFE</color>
+    <color name="dialog_click_color">#0084FF</color>
+    <color name="dialog_black">#272636</color>
+    <color name="edit_text_color">#ABAABF</color>
+    <color name="release_layout_bgcolor">#EDEDF3</color>
+    <color name="live_chat">#F6BB42</color>
+
+    <!---->
+    <color name="color_white_66ffffff">#66ffffff</color>
+
+    <color name="radio_btn">#346fc3</color>
+    <color name="title_bar_divide_line">#ffb2b2b2</color>
+    <color name="video_item_divide_line">#ffc8c7cc</color>
+    <color name="comment_bg_color">#eeeeee</color>
+    <color name="mix_audio_bg">#80000000</color>
+    <color name="btn_enter_text_unable">#80ffffff</color>
+    <color name="next_unable">#4c238efa</color>
+    <color name="next_enable">#238efa</color>
+    <color name="color_upload_fail">#f05b60</color>
+    <color name="color_upload_normal">#999999</color>
+    <color name="bg_color_main_top_tab">#f7f7f8</color>
+    <color name="video_detail_subtitle_bg">#e3e6ea</color>
+    <color name="video_detail_divide_line">#cbd0d8</color>
+    <color name="bg_color_input_divide">#cbd0d8</color>
+    <color name="bg_media_player_controller">#7f000000</color>
+    <color name="color_blue_238efa">#238efa</color>
+
+</resources>

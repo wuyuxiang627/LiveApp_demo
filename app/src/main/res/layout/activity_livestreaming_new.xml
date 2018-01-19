@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <com.netease.vcloud.video.render.NeteaseView
+        android:id="@+id/live_normal_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <RelativeLayout
+        android:id="@+id/live_title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/live_net_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/info"
+            android:layout_alignParentLeft="true"/>
+
+        <ImageView
+            android:id="@+id/live_flash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/flashstart"
+            android:layout_centerInParent="true"/>
+
+        <ImageView
+            android:id="@+id/live_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_close"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_focus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/live_title_layout">
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:text="镜头变焦"
+            android:textColor="@color/white"
+            android:background="#33333333"/>
+        <android.support.v7.widget.AppCompatSeekBar
+            android:id="@+id/live_seekbar_focus"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dp"
+            android:max="100"
+            android:visibility="visible"
+            android:theme="@style/seek_bar"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_filter_seek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_focus"
+        android:layout_marginTop="5dp"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:text="滤镜强度"
+            android:textColor="@color/white"
+            android:background="#33333333"/>
+        <android.support.v7.widget.AppCompatSeekBar
+            android:id="@+id/live_seekbar_filter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:max="100"
+            android:visibility="visible"
+            android:theme="@style/seek_bar"
+            />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/live_start_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:src="@drawable/ic_play"/>
+
+    <LinearLayout
+        android:id="@+id/live_btn_layout"
+        android:layout_toRightOf="@id/live_start_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:gravity="right"
+        android:layout_margin="20dp">
+
+        <ImageView
+            android:id="@+id/live_camera_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/camera"/>
+
+        <ImageView
+            android:id="@+id/live_filter_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/filter"/>
+
+        <ImageView
+            android:id="@+id/live_music_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/music"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/live_btn_layout2"
+        android:layout_above="@id/live_btn_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="right"
+        android:layout_margin="20dp"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/live_audio_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/audio_s"/>
+
+        <ImageView
+            android:id="@+id/live_video_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/video_s"/>
+
+        <ImageView
+            android:id="@+id/live_screen_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/screen_cap"/>
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

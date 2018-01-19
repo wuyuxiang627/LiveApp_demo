@@ -1,0 +1,4 @@
+#Fri Jan 19 20:00:38 CST 2018
+base.0=D\:\\studio\\LiveApp_demo\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

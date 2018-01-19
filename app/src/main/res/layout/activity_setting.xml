@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            style="@style/text_title"
+            android:id="@+id/tv_title"
+            android:layout_centerInParent="true"
+            android:text="@string/app_name" />
+
+        <ImageView
+            android:id="@+id/main_scan_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:onClick="onClick"
+            android:src="@drawable/scan" />
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:src="@drawable/ic_back"
+            android:onClick="onClick"
+           />
+    </RelativeLayout>
+
+
+    <TextView
+        style="@style/text_title_small"
+        android:text="键入直播地址" />
+
+    <View style="@style/view_line" />
+
+    <EditText
+        android:id="@+id/main_push_url"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="8dp"
+        android:background="@drawable/shape_grey"
+        android:textColor="@color/text_color_content"
+        android:textSize="16sp"/>
+
+    <LinearLayout
+        android:id="@+id/ll_player"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            style="@style/text_title_small"
+            android:text="播放类型" />
+
+        <View style="@style/view_line" />
+
+        <RadioGroup
+            android:id="@+id/player_rg_source_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <RadioButton
+                android:id="@+id/player_rb_source_livestream"
+                style="@style/radio_button"
+                android:layout_width="110dp"
+                android:checked="true"
+                android:text="直播" />
+
+            <RadioButton
+                android:id="@+id/player_rb_source_video_on_demand"
+                style="@style/radio_button"
+                android:text="点播" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/text_title_small"
+            android:text="解码类型" />
+
+        <View style="@style/view_line" />
+
+        <RadioGroup
+            android:id="@+id/player_rg_decoder_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <RadioButton
+                android:id="@+id/player_rb_decoder_software"
+                style="@style/radio_button"
+                android:layout_width="110dp"
+                android:checked="true"
+                android:text="软件解码" />
+
+            <RadioButton
+                android:id="@+id/player_rb_decoder_hardware"
+                style="@style/radio_button"
+                android:text="硬件解码" />
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_livestream"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <TextView
+            style="@style/text_title_small"
+            android:text="清晰度选择" />
+        <View style="@style/view_line" />
+
+        <RadioGroup
+            android:id="@+id/main_rg_resolution_row1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/main_resolution_high"
+                style="@style/radio_button"
+                android:text="高清 (1280 * 720)"
+                />
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/main_resolution_stand"
+                style="@style/radio_button"
+                android:checked="true"
+                android:text="标清 (640 * 480)" />
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/main_resolution_low"
+                style="@style/radio_button"
+                android:text="流畅 (320 * 240)" />
+
+        </RadioGroup>
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/main_switch_filter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:textColor="@color/white"
+            android:textSize= "17sp"
+            android:padding="6dp"
+            android:text="@string/setting_filter"
+            android:theme="@style/btn_switch"
+            android:checked="false"
+            android:background="@color/transparent"/>
+        <View style="@style/view_line" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/main_start"
+        android:layout_marginTop="41dp"
+        android:layout_width="229dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_height="41dp"
+        android:textColor="@color/color_black_20"
+        android:background="@drawable/enter_button_selector"
+        android:textSize="16dp"
+        android:text="@string/enter_live"
+        android:onClick="onClick"
+        android:enabled="false"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000">
+
+        <com.netease.vcloud.video.render.NeteaseView
+            android:id="@+id/camerasurfaceview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            />
+    </RelativeLayout>
+
+    <com.daimajia.numberprogressbar.NumberProgressBar
+        android:id="@+id/number_progress_bar"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:progress_max="100"
+        app:progress_reached_color="@color/chiliPowderColor"
+        app:progress_reached_bar_height="3dp"
+        app:progress_text_size="15sp"
+        app:progress_text_color="@color/chiliPowderColor"
+        app:progress_unreached_color="@color/white"
+        app:progress_unreached_bar_height="3dp"
+        />
+
+    <Button
+        android:id="@+id/btn_start_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="开始" />
+    <include layout="@layout/layout_test_title"
+        android:id="@+id/include" />
+
+    <!-- faceu 布局 -->
+    <include
+        android:id="@+id/faceu_layout"
+        layout="@layout/faceu_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/include" />
+
+
+
+
+</RelativeLayout>
