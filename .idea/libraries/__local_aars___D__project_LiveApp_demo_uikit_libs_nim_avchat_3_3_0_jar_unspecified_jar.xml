@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="__local_aars__:D.\studio\LiveApp_demo\uikit\libs\nim-avchat-3.3.0.jar:unspecified@jar">
+  <library name="__local_aars__:D.\project\LiveApp_demo\uikit\libs\nim-avchat-3.3.0.jar:unspecified@jar">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/uikit/libs/nim-avchat-3.3.0.jar!/" />
     </CLASSES>

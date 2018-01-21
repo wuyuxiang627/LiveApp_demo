@@ -1,6 +1,22 @@
 {
     "logs": [
         {
+            "outputFile": "D:\\project\\LiveApp_demo\\Fulive\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v22\\values-v22.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Yuxiang Wu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\30d58eb9aa535f0e65ee2871ad6e5d21\\res\\values-v22\\values-v22.xml",
+                    "from": {
+                        "startLines": "2,3,4,9",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,130,217,553",
+                        "endLines": "2,3,8,13",
+                        "endColumns": "74,86,12,12",
+                        "endOffsets": "125,212,548,896"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "D:\\studio\\LiveApp_demo\\Fulive\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v22\\values-v22.xml",
             "map": [
                 {

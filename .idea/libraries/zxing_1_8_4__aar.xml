@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="zxing-1.8.4:@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/zxing-1.8.4.aar/23f742531830870c15f613b6be11764a/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/zxing-1.8.4.aar/23f742531830870c15f613b6be11764a/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/zxing-1.8.4.aar/1089c94731ce472df23d477e7f874c4e/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/zxing-1.8.4.aar/1089c94731ce472df23d477e7f874c4e/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

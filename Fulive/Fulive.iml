@@ -97,21 +97,19 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/manifests" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/res" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/rs" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/shaders" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/symbols" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/tmp" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/transforms" />
       <excludeFolder url="file://$MODULE_DIR$/build/outputs" />
-      <excludeFolder url="file://$MODULE_DIR$/build/tmp" />
     </content>
     <orderEntry type="jdk" jdkName="Android API 25 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="__local_aars__:D.\project\LiveApp_demo\Fulive\libs\nama.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="com.android.support:animated-vector-drawable-25.3.1" level="project" />
     <orderEntry type="library" name="org.jetbrains:annotations-java5:15.0@jar" level="project" />
     <orderEntry type="library" name="com.android.support:support-core-ui-25.3.1" level="project" />
     <orderEntry type="library" name="com.android.support:appcompat-v7-25.3.1" level="project" />
     <orderEntry type="library" name="com.android.support:support-compat-25.3.1" level="project" />
-    <orderEntry type="library" name="__local_aars__:D.\studio\LiveApp_demo\Fulive\libs\nama.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="com.android.support:support-core-utils-25.3.1" level="project" />
     <orderEntry type="library" name="com.android.support:support-vector-drawable-25.3.1" level="project" />
     <orderEntry type="library" name="com.android.support:support-v4-25.3.1" level="project" />

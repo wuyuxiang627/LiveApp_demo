@@ -145,6 +145,9 @@ public class FuVideoEffect{
         faceunity.fuItemSetParam(mFacebeautyItem, "eye_enlarging", mFacebeautyEnlargeEye);
         faceunity.fuItemSetParam(mFacebeautyItem, "face_shape", mFaceShape);
         faceunity.fuItemSetParam(mFacebeautyItem, "face_shape_level", mFaceShapeLevel);
+
+        faceunity.fuItemSetParam(1, "face_shape_level", 1); //程度
+        faceunity.fuItemSetParam(1, "cheek_thinning", 1); //瘦脸
     }
 
     public void onEffectItemSelected(int position) {
